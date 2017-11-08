@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3c3c"
+    tools:context="com.example.mac.proton6setup.SetupPage">
+
+
+    <ImageView android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="65dp"
+        android:text="Enable Proton6 Setup Screen"
+        tools:layout_editor_absoluteY="345dp"
+        tools:layout_editor_absoluteX="31dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button android:textColor="#ffffff"
+        android:id="@+id/update_edit_url"
+        android:background="#ff5a5f"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Proton6 Configration"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="418dp"
+        tools:layout_editor_absoluteX="71dp" />
+
+</RelativeLayout>
